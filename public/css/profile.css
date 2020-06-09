@@ -1,0 +1,73 @@
+body {
+    /* Location of the image */
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/31/11/22/people-2557408_960_720.jpg);
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the backgroundImg image rescale based
+       on the container's size */
+    background-size: cover;
+
+    /* Set a backgroundImg color that will be displayed
+       while the backgroundImg image is loading */
+    background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        /* The file size of this backgroundImg image is 93% smaller
+           to improve page load speed on mobile internet connections */
+        background-image: url(https://cdn.pixabay.com/photo/2017/07/31/11/22/people-2557408_960_720.jpg);
+    }
+}
+
+.image-container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.edit-profile-button
+{
+    position:relative;
+    left: 2%;
+    color: #fff !important;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
