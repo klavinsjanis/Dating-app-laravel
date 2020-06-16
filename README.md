@@ -7,13 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-##Video Presentation (Youtube):
+## Video Presentation (Youtube):
+<br>
 [![Video](https://img.youtube.com/vi/SVmBuhx5nBY/0.jpg)](https://youtu.be/SVmBuhx5nBY)
 
-##Description: 
+## Description: 
 Dating app with matching system, built using Laravel framework (MVC model) , that implements MySQL database for storing information about users & their pictures, matches, likes and dislikes etc.
 
-##Functionality:
+## Functionality:
 - Login, Register, Password reset
 - Edit profile preferences (age, gender, profile picture etc.)
 - Show other users, that haven't been liked or disliked
