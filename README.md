@@ -1,3 +1,20 @@
+
+##Video Presentation (Youtube):
+[![DateVice](https://img.youtube.com/vi/SVmBuhx5nBY/0.jpg)]
+(https://www.youtube.com/watch?v=SVmBuhx5nBY)
+
+##Description: 
+Dating app with matching system, built using Laravel framework (MVC model) , that implements MySQL database for storing information about users & their pictures, matches, likes and dislikes etc.
+
+##Functionality:
+- Login, Register, Password reset
+- Edit profile preferences (age, gender, profile picture etc.)
+- Show other users, that haven't been liked or disliked
+- Change matching system output to only show people in a certain age group or with a specific gender
+- If two people like each other, a match is then created and can be viewed from both profiles in the matches page
+- When two users match an e-mail is sent to both users, notifying that they have a new match.
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
